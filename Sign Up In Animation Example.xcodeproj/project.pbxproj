@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D338A0D91883547F00CF7797 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D338A0D81883547F00CF7797 /* UIKit.framework */; };
+		D338A0DB1883547F00CF7797 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D338A0DA1883547F00CF7797 /* Foundation.framework */; };
+		D338A0DD1883547F00CF7797 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D338A0DC1883547F00CF7797 /* CoreGraphics.framework */; };
+		D338A0E31883547F00CF7797 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D338A0E11883547F00CF7797 /* InfoPlist.strings */; };
+		D338A0E51883547F00CF7797 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D338A0E41883547F00CF7797 /* main.m */; };
+		D338A0E91883547F00CF7797 /* IOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D338A0E81883547F00CF7797 /* IOSAppDelegate.m */; };
+		D338A0EB1883547F00CF7797 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D338A0EA1883547F00CF7797 /* Default.png */; };
+		D338A0ED1883547F00CF7797 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D338A0EC1883547F00CF7797 /* Default@2x.png */; };
+		D338A0EF1883547F00CF7797 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D338A0EE1883547F00CF7797 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D338A0D51883547F00CF7797 /* Sign Up In Animation Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sign Up In Animation Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D338A0D81883547F00CF7797 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D338A0DA1883547F00CF7797 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D338A0DC1883547F00CF7797 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D338A0E01883547F00CF7797 /* Sign Up In Animation Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sign Up In Animation Example-Info.plist"; sourceTree = "<group>"; };
+		D338A0E21883547F00CF7797 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D338A0E41883547F00CF7797 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D338A0E61883547F00CF7797 /* Sign Up In Animation Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sign Up In Animation Example-Prefix.pch"; sourceTree = "<group>"; };
+		D338A0E71883547F00CF7797 /* IOSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOSAppDelegate.h; sourceTree = "<group>"; };
+		D338A0E81883547F00CF7797 /* IOSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSAppDelegate.m; sourceTree = "<group>"; };
+		D338A0EA1883547F00CF7797 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D338A0EC1883547F00CF7797 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D338A0EE1883547F00CF7797 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D338A0D21883547F00CF7797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D338A0D91883547F00CF7797 /* UIKit.framework in Frameworks */,
+				D338A0DB1883547F00CF7797 /* Foundation.framework in Frameworks */,
+				D338A0DD1883547F00CF7797 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D338A0CC1883547F00CF7797 = {
+			isa = PBXGroup;
+			children = (
+				D338A0DE1883547F00CF7797 /* Sign Up In Animation Example */,
+				D338A0D71883547F00CF7797 /* Frameworks */,
+				D338A0D61883547F00CF7797 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D338A0D61883547F00CF7797 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D338A0D51883547F00CF7797 /* Sign Up In Animation Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D338A0D71883547F00CF7797 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D338A0D81883547F00CF7797 /* UIKit.framework */,
+				D338A0DA1883547F00CF7797 /* Foundation.framework */,
+				D338A0DC1883547F00CF7797 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D338A0DE1883547F00CF7797 /* Sign Up In Animation Example */ = {
+			isa = PBXGroup;
+			children = (
+				D338A0E71883547F00CF7797 /* IOSAppDelegate.h */,
+				D338A0E81883547F00CF7797 /* IOSAppDelegate.m */,
+				D338A0DF1883547F00CF7797 /* Supporting Files */,
+			);
+			path = "Sign Up In Animation Example";
+			sourceTree = "<group>";
+		};
+		D338A0DF1883547F00CF7797 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D338A0E01883547F00CF7797 /* Sign Up In Animation Example-Info.plist */,
+				D338A0E11883547F00CF7797 /* InfoPlist.strings */,
+				D338A0E41883547F00CF7797 /* main.m */,
+				D338A0E61883547F00CF7797 /* Sign Up In Animation Example-Prefix.pch */,
+				D338A0EA1883547F00CF7797 /* Default.png */,
+				D338A0EC1883547F00CF7797 /* Default@2x.png */,
+				D338A0EE1883547F00CF7797 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D338A0D41883547F00CF7797 /* Sign Up In Animation Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D338A0F21883547F00CF7797 /* Build configuration list for PBXNativeTarget "Sign Up In Animation Example" */;
+			buildPhases = (
+				D338A0D11883547F00CF7797 /* Sources */,
+				D338A0D21883547F00CF7797 /* Frameworks */,
+				D338A0D31883547F00CF7797 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sign Up In Animation Example";
+			productName = "Sign Up In Animation Example";
+			productReference = D338A0D51883547F00CF7797 /* Sign Up In Animation Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D338A0CD1883547F00CF7797 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IOS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Brian Fontenot";
+			};
+			buildConfigurationList = D338A0D01883547F00CF7797 /* Build configuration list for PBXProject "Sign Up In Animation Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D338A0CC1883547F00CF7797;
+			productRefGroup = D338A0D61883547F00CF7797 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D338A0D41883547F00CF7797 /* Sign Up In Animation Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D338A0D31883547F00CF7797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D338A0E31883547F00CF7797 /* InfoPlist.strings in Resources */,
+				D338A0EB1883547F00CF7797 /* Default.png in Resources */,
+				D338A0ED1883547F00CF7797 /* Default@2x.png in Resources */,
+				D338A0EF1883547F00CF7797 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D338A0D11883547F00CF7797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D338A0E51883547F00CF7797 /* main.m in Sources */,
+				D338A0E91883547F00CF7797 /* IOSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D338A0E11883547F00CF7797 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D338A0E21883547F00CF7797 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D338A0F01883547F00CF7797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D338A0F11883547F00CF7797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D338A0F31883547F00CF7797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sign Up In Animation Example/Sign Up In Animation Example-Prefix.pch";
+				INFOPLIST_FILE = "Sign Up In Animation Example/Sign Up In Animation Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D338A0F41883547F00CF7797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sign Up In Animation Example/Sign Up In Animation Example-Prefix.pch";
+				INFOPLIST_FILE = "Sign Up In Animation Example/Sign Up In Animation Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D338A0D01883547F00CF7797 /* Build configuration list for PBXProject "Sign Up In Animation Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D338A0F01883547F00CF7797 /* Debug */,
+				D338A0F11883547F00CF7797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D338A0F21883547F00CF7797 /* Build configuration list for PBXNativeTarget "Sign Up In Animation Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D338A0F31883547F00CF7797 /* Debug */,
+				D338A0F41883547F00CF7797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D338A0CD1883547F00CF7797 /* Project object */;
+}
