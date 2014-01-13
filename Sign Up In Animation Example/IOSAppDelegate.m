@@ -7,6 +7,7 @@
 //
 
 #import "IOSAppDelegate.h"
+#import "IOSSignUpInViewController.h"
 
 @implementation IOSAppDelegate
 
@@ -15,6 +16,11 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    IOSSignUpInViewController *signUpInViewController = [[IOSSignUpInViewController alloc] init];
+    self.navigationController = [[UINavigationController alloc] initWithRootViewController:signUpInViewController];
+    self.window.rootViewController = self.navigationController;
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
